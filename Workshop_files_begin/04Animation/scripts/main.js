@@ -8,10 +8,10 @@ function spin(){
 	myOtherBox.object3D.rotation.x += rotationSpeed;
 	console.log(myOtherBox.object3D.rotation.x);
 	
-	myOtherBox.object3D.rotation.x += rotationSpeed;
+	myOtherBox.object3D.rotation.y += rotationSpeed;
 	console.log(myOtherBox.object3D.rotation.y);
 	
-	myOtherBox.object3D.rotation.x += rotationSpeed;
+	myOtherBox.object3D.rotation.z += rotationSpeed;
 	console.log(myOtherBox.object3D.rotation.z);
 }
 
