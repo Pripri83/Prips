@@ -2,7 +2,7 @@
 
 // changing individual properties with code and using setInterval
 var rotationSpeed = 0.10;
-var scaleSize = 0.10;
+var movement = 0.10;
 var myOtherBox = document.getElementById('myOtherBox');
 
 function spin(){
@@ -16,10 +16,10 @@ function spin(){
 	//console.log(myOtherBox.object3D.rotation.z);
 }
 
-function scale(){
-	myOtherBox.object3D.scale.x += scaleSize;
-	console.log(myOtherBox.object3D.scale.x);
+function position(){
+	myOtherBox.object3D.position.x += movement;
+	console.log(myOtherBox.object3D.position.x);
 }
 
 setInterval(spin, 16); //equivalent to 60 fps
-setInterval(scale, 16); //equivalent to 60 fps
+setInterval(position, 16); //equivalent to 60 fps
