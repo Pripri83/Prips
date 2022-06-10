@@ -15,9 +15,10 @@ function spin(){
 	//myOtherBox.object3D.rotation.z += rotationSpeed;
 	//console.log(myOtherBox.object3D.rotation.z);
 	
-function scale(){
+function scaleSize(){
 	myOtherBox.object3D.scale.x += scaleSize;
 	console.log(myOtherBox.object3D.scale.x);
 }
 
 setInterval(spin, 16); //equivalent to 60 fps
+setInterval(scale, 16); //equivalent to 60 fps
