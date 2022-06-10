@@ -14,7 +14,7 @@ function spin(){
 	
 	//myOtherBox.object3D.rotation.z += rotationSpeed;
 	//console.log(myOtherBox.object3D.rotation.z);
-	
+}	
 //function scale(){
 	//myOtherBox.object3D.scale.x += scaleSize;
 	//console.log(myOtherBox.object3D.scale.x);
