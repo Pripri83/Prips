@@ -22,10 +22,16 @@
         depth="1" 
         material="src: #wood"
         shadow 
-        animation="property: rotation; 
-                   to: 4 5 -2; 
+        animation="property: scale;
+                   to: 60 100 85; 
                    dur: 1500; 
                    easing: easeInOutExpo;
+                   loop: true"
+             
+        animationPosition="property: position;
+                   to: 100 90 75; 
+                   dur: 200; 
+                   easing: easeInOutSine;
                    loop: true" >
       </a-box>
       <a-box id="myOtherBox" 
